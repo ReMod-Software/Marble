@@ -39,6 +39,8 @@ import {
 	whiteHover,
 	rgba,
 } from '@carbon/colors';
+import { backgroundInverse, backgroundBrand, backgroundActive, backgroundHover, backgroundOverlay, backgroundSelected, backgroundSelectedHover
+} from '@carbon/themes';
 export default {
 	content: [
 		"./index.html",
@@ -77,6 +79,14 @@ export default {
 				'red-50': red50,
 				'red-60': red60,
 				'purple-60': purple60,
+                'background-inverse': backgroundInverse,
+                'rgba': rgba,
+				'background-brand': backgroundBrand,
+				'background-active': backgroundActive,
+				'background-hover': backgroundHover,
+				'background-overlay': backgroundOverlay,
+				'background-selected': backgroundSelected,
+				'background-selected-hover': backgroundSelectedHover,
 
 			}
 		},
