@@ -24,7 +24,7 @@ dependencies:
     specifier: ^0.45.1
     version: 0.45.1
   solid-js:
-    specifier: ^1.8.15
+    specifier: ^1.8.16
     version: 1.8.16
 
 devDependencies:
